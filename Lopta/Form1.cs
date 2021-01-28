@@ -62,6 +62,12 @@ namespace Lopta
             for (int i = 0; i < n; i++) pomeranje[i] = false;
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
+        }
+
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             x0 = e.X;
